@@ -1,0 +1,25 @@
+header {
+    border: brown solid;
+    height: 100px;
+}
+.container-{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.menu-top {
+    border: springgreen solid;
+    height: 20px;
+}
+aside,article {
+    border: tomato solid;
+    float: left;
+    height: 130px;
+}
+footer{
+    border: violet thin solid;
+    height: 20px;
+    float: left;
+}
+.center{
+    float: left;
+}
