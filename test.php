@@ -56,7 +56,7 @@ function searchByDate($customers, $from_date, $to_date) {
           </tr>
           <?php foreach($filtered_customers as $index=> $customer): ?>
             <tr>
-                <td><?php echo $index + 1;?></td>
+                <td><?php echo $index ;?></td>
                 <td><?php echo $customer['name'];?></td>
                 <td><?php echo $customer['day_of_birth'];?></td>
                 <td><?php echo $customer['address'];?></td>
